@@ -1,0 +1,48 @@
+Test Strategy:Steps(ITDS)
+
+1.Assess Testability:
+2.operability:4
+3.controllability:5
+4.observability:5
+5.simplicity:3
+6.undestandability:5
+7.suitabilty:5
+8.Stability:5
+
+Test Factors:
+1.Authorization-Integration testing
+2.Correctness-Integration testing
+3.Access control-system testing
+4.Reliabilty--UAT
+5.performance-system
+6.integrity-system testing
+7.continuity of processing:post UAT
+
+
+Assess drivers that would influence testing/approach:
+
+Authorization-Integration-tester(Quality analyst)/validation/blackbox testing
+Correctness-Integration--tester/validation/blackbox testing/dynamic
+Access control-system testing--tester/verification/blackbox testing
+Reliabilty-UAT--client/customer/verification/Black Box testing
+performance-system--tester/validation/black box testing
+integrity-system testing--tester/blackbox/validation 
+continuity of processing:post UAT--client/verification/BlackBox testing
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Test plan:
+1.Test item:Internet based DTS
+2.Software risk issues:Security testing,performance testing,Integration Testing.
+3.Features to be tested(user stories):Register users,manager and member function,Admin Funtions,Transaction record/limits.
+4.Features not to be tested:new version,Users Hands-on experience.
+5.Approach:Whitebox, blackbox Testing(It contains code and UI)
+6.Test deliverables:source code,Test scenario,test plan,test case,test execution report,test report,defect report.
+7.item pass/fail criteria:User trying to login with correct credentials but not able to login(show stopper).
+8.Suspension&Resumption criteria:show stooper in application/non-availabilty of resouce/when this is resolved
+9.Responsibility:a.project manager:Review test cases, review and approve the issues.
+		 b.Test Lead:Assigns tasks, tracks the testing progress,
+		 c.Tester:Execute test cases, reports the issues,
+		 d.Customer:UAT testing
+10.STAFFING AND TRAINING NEED: Testers Needed are 5/training(performance,security testing,integration testing etc)
+11.Schedule:2 weeks
